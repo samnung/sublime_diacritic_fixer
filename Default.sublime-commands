@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Diacritic Fixer: Fix selection",
+        "command": "diacritic_fix_selection"
+    }
+]
