@@ -30,6 +30,7 @@ def fix_diacritics(text):
     for diacritic_char, group in mapping_dict.items():
         for normal_char, normal_diacritic_char in group.items():
             text = text.replace(normal_char + diacritic_char, normal_diacritic_char)
+            text = text.replace(normal_char.upper() + diacritic_char, normal_diacritic_char.upper())
     
     return text
 
